@@ -1161,7 +1161,7 @@
     color: #E3B873;
 }
 .footer__tel {
-    color: #E3B873;
+    color: #FFFFFF;
     cursor: pointer;
     font-family: "Nunito Sans", sans-serif;
     font-size: 11px;
@@ -1169,8 +1169,11 @@
     font-weight: 400;
     line-height: normal;
     text-align: right;
-    text-decoration-line: underline;
     width: 126px;
+}
+.footer__tel:hover {
+    color: #E3B873;
+    text-decoration-line: underline;
 }
 .footer__btn {
     background-color: #E3B873;
